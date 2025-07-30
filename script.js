@@ -48,7 +48,7 @@ async function generateRecipe() {
   };
 
   try {
-    const apiKey = "AIzaSyDLFjpf4L7ZaJN03YZeTjXfFrJ9p_8MRfI"; // Insert your Gemini API key
+    const apiKey = "AIzaSyC82itirm1IXuoMEfUQGxGqO0-jIg-k6EU"; // Insert your Gemini API key
     const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
 
     const payload = {
